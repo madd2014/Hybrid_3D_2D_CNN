@@ -18,7 +18,7 @@ import cv2, shutil
 import math
 
 
-def build_model():
+def gen_data():
     base_path = '/media/DATA3/mdd/modified_polar_cell_data3/compare_data/128_128_h5_rotate12_flip0/'
     save_path = '/media/DATA3/mdd/modified_polar_cell_data3/compare_data/128_128_h5_rotate12_flip0_dualstream_firstcopy3/'
 
@@ -88,7 +88,7 @@ def build_model():
 
 def self_main():
 
-    build_model()
+    gen_data()
 
 
     test_end = 1
